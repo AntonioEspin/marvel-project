@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --black-1: #202020;
+  --primary: #e42831;
+  --grey: #929292;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--black-1);
+}
+
+#main {
+  position: relative;
+  max-width: 1400px;
+  min-width: 350px;
+  height: auto;
+  margin: 0 auto;
+}
