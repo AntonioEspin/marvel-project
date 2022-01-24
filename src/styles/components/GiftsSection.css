@@ -1,0 +1,79 @@
+.giftsSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  background-color: var(--white);
+}
+
+.giftsSection__container img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.giftsSection__info {
+  width: 100%;
+  height: auto;
+  background-color: var(--black-1);
+  color: var(--white);
+  padding: 0 15px;
+}
+
+.giftsSection__info h2 {
+  font-size: 2.4rem;
+  padding-top: 24px;
+  font-weight: 700;
+}
+
+.giftsSection__info p {
+  font-size: 1.6rem;
+  margin: 10px 0 15px;
+  line-height: 2rem;
+}
+
+.giftsSection__info button {
+  width: 145px;
+  height: 50px;
+  background-color: var(--black-1);
+  border: 1px solid var(--grey);
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--white);
+  margin: 25px 0 35px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+/* responsive design */
+
+@media (min-width: 1024px) {
+  .giftsSection__container {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+  }
+
+  .giftsSection__container img {
+    width: 50%;
+    height: initial;
+  }
+
+  .giftsSection__info {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 85px;
+  }
+
+  .giftsSection__info h2 {
+    font-size: 4rem;
+  }
+}

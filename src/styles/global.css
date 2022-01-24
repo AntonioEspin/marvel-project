@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ html {
 
 body {
   background-color: var(--black-1);
+  font-family: "Roboto", sans-serif;
 }
 
 #main {
@@ -25,4 +28,11 @@ body {
   min-width: 350px;
   height: auto;
   margin: 0 auto;
+}
+
+/* Para pantallas mayores a 1024px */
+@media (min-width: 1024px) {
+  .HeaderPhone {
+    display: none;
+  }
 }

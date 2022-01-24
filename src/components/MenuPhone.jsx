@@ -4,7 +4,7 @@ import '../styles/components/MenuPhone.css'
 
 const MenuPhone = ({menu, handleMenu}) => {
   return (
-    <section className= {menu ? 'menuPhone': 'visible'} >
+    <section className= {menu ? 'menuPhone': 'invisible'} >
       <figure className="menuPhone__img">
         <img src={menuIcon} alt="menu" onClick={handleMenu}/>
       </figure>
