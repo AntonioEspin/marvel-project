@@ -1,0 +1,26 @@
+.comicItem {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.comicItem img {
+  width: 100%;
+}
+
+.comicItem__info {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
+
+.comicItem__info h3 {
+  font-size: 1.4rem;
+  color: var(--black-1);
+  margin-bottom: 5px;
+}
+
+.comicItem__info p {
+  font-size: 1.2rem;
+  color: var(--grey);
+}

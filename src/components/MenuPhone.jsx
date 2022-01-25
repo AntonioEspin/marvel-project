@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import menuIcon from '../static/icons/menu.svg'
 import '../styles/components/MenuPhone.css'
 
@@ -17,7 +18,7 @@ const MenuPhone = ({menu, handleMenu}) => {
             <a href="">CARACTERES</a>
           </li>
           <li className="menuPhone__nav--list">
-            <a href="">HISTORIETAS</a>
+            <Link to="/comics">HISTORIETAS</Link>
           </li>
           <li className="menuPhone__nav--list">
             <a href="">PELÍCULAS</a>

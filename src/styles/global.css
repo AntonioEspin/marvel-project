@@ -22,7 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-#main {
+#app {
   position: relative;
   max-width: 1400px;
   min-width: 350px;
