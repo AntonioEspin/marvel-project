@@ -20,7 +20,7 @@ const HeaderDesktop = () => {
             <a href="">VIDEOS</a>
           </li>
           <li className="headerDesktop__nav--list">
-            <a href="">CARACTERES</a>
+            <Link to="/characters">CARACTERES</Link>
           </li>
           <li className="headerDesktop__nav--list">
             <Link to="/comics">HISTORIETAS</Link>

@@ -15,7 +15,7 @@ const MenuPhone = ({menu, handleMenu}) => {
             <a href="">VIDEOS</a>
           </li>
           <li className="menuPhone__nav--list">
-            <a href="">CARACTERES</a>
+            <Link to="/characters">CARACTERES</Link>
           </li>
           <li className="menuPhone__nav--list">
             <Link to="/comics">HISTORIETAS</Link>

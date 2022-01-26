@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/components/ComicsSection.css'
 
-const ComicsSection = ({children}) => {
+const MarvelInfoSection = ({children}) => {
   return (
     <section className="comicsSection">
       <h1>Lanzamientos de este mes</h1>
@@ -10,4 +10,4 @@ const ComicsSection = ({children}) => {
   )
 }
 
-export default ComicsSection;
+export default MarvelInfoSection;

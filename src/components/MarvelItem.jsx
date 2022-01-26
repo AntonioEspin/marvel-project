@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/components/ComicItem.css'
 
-const ComicItem = ({title, writer, image}) => {
+const MarvelItem = ({title, writer, image}) => {
   return (
     <article className="comicItem">
       <img src={`${image}/portrait_uncanny.jpg`} alt={title} />
@@ -13,4 +13,4 @@ const ComicItem = ({title, writer, image}) => {
   )
 }
 
-export default ComicItem;
+export default MarvelItem;
